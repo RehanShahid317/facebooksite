@@ -1,0 +1,91 @@
+      .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+            height: 100vh;
+            margin-right: 123px;
+        }
+
+        .login-container {
+            border: 2px solide white;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 398px;
+            height: 361px;
+            padding: 21px;
+            border-radius: 8px;
+        }
+
+        .login-container form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .login-container input {
+            border: 1px solid #dddfe2;
+            font-size: 17px;
+            /* margin: 10px;
+    margin-top: 10px; */
+            margin-bottom: 17px;
+            padding: 18px;
+            border-radius: 8px;
+
+        }
+
+        .login-container input[type="submit"] {
+            border: none;
+            background-color: #1877f2;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+
+        }
+
+        .login-container a {
+
+            text-decoration: none;
+            padding-left: 145px;
+            color: #1877f2;
+        }
+
+        .login-container input[type="submit"]:hover {
+            background-color: #165eab;
+        }
+
+        .login-container a:hover {
+            text-decoration: underline;
+        }
+
+        .newaccount {
+            background-color: #42b72a;
+            border: none;
+            color: white;
+            margin-left: 100px;
+            margin-top: 25px;
+            font-size: 14px;
+            border-radius: 8px;
+            padding: 17px;
+            padding-right: 36px;
+            font-weight: bolder;
+            padding-left: 34px;
+            cursor: pointer;
+
+        }
+
+        .newaccount:hover {
+            background-color: #45ca2a;
+        }
+
+        .login-container input:focus {
+
+            border-color: blue;
+            outline: 2px solid white;
+        }
+        .fb{
+            margin-top: -536px;
+            
+            margin-left: 107px;
+            display: flex;
+            align-items: flex-start;
+        }
